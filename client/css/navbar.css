@@ -1,0 +1,203 @@
+@media (min-width:320px) {
+    #navbar{
+        height: 55px;
+        width: 100%;
+    }
+    
+    #navbarUl li a:hover{
+        background-color: #e7e7e7 !important;
+    }
+    
+    #navbarUl li a{
+        color:#2d3238 !important;  
+        font-size: 12px;
+        
+    }
+    
+    #navbarUl{
+        margin-top: -110px;
+    }
+    
+    #liA1{
+        float: left;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    
+    #liA2{
+        float: right;
+        margin-top: -40px;
+    }
+    
+    #navbarUl li{
+        color:#2d3238 !important;
+    }
+
+    
+    #responsiveBtn{
+        margin-top: -110px;
+        
+    }
+    
+
+    #navbarImg{
+        background-image: url('../imgs/xformation.png');
+        background-repeat: no-repeat;
+        background-size: 80px;
+        height: 80px;
+        width: 80px;
+        margin-top: 15px;
+        
+    }
+}
+
+@media (min-width:359px) {
+    
+    #liA1{
+        float: left;
+        margin-left: 105px;
+        margin-top: 20px;
+    }
+    
+    #liA2{
+        float: right;
+        margin-top: 20px;
+    }
+    
+    #navbarUl li a{
+        font-size: 15px;
+        
+    }
+    
+
+}
+
+@media (min-width:599px) {
+    #navbar{
+        height: 90px;
+    }
+    
+
+    #navbarImg{
+        background-size: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    
+    #liA1{
+        float: left;
+        margin-left: 210px;
+        margin-top: -90px;
+    }
+    
+    #liA2{
+        float: right;
+        margin-top: -90px;
+    }
+    
+    #navbarUl li a{
+        font-size: 25px;
+        
+    }
+    
+}
+
+@media (min-width:899px) {
+    #navbar{
+        height: 90px;
+    }
+    
+    #responsiveBtn{
+        margin-top: 0px;
+        
+    }
+    
+     #navbarUl {
+         margin-left:  10px !important;
+         margin-top: 10px !important;
+         width: 400px !important;
+     }
+
+     
+    
+    #navbarUl li a{
+        color:#2d3238 !important;  
+        
+    }
+    
+    #liA1{
+        float: left;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    #liA2{
+        float: right;
+        margin-top: 10px;
+    }
+    
+    #navbarUl li a{
+        font-size: 20px;
+        
+    }
+
+    
+}
+
+/**
+@media only screen and (min-device-width : 600px) and (max-device-width : 1200px) {
+    #navbar{
+        height: 100px;
+        
+    }
+    
+    #navbarUl li a{
+        font-size: 20px;
+        
+    }
+    
+    
+    #responsiveBtn{
+        margin-top: -200px;
+        height: 50px;
+        width: 50px;
+    }
+    
+
+    #navbarImg{
+        background-size: 200px;
+        height: 200px;
+        width: 200px;
+        margin-top: 20px;
+        
+    }
+}
+
+@media (min-width:1200px) { 
+    #navbar{
+        height: 55px;
+        width: 100%;
+        
+    }
+    
+    #navbarUl li a{
+        color:#2d3238 !important;  
+        
+    }
+    
+    #navbarUl li a:hover{
+        background-color: #e7e7e7 !important;
+    }
+    
+    #navbarImg{
+        background-image: url('../imgs/xformation.png');
+        background-repeat: no-repeat;
+        background-size: 200px;
+        height: 60px;
+        width: 200px;
+        margin-left: 100px;
+        margin-top: -2px;
+        
+    }
+}
+**/

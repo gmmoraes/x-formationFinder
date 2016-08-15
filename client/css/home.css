@@ -1,0 +1,204 @@
+@media (min-width:320px) {
+    #homeContainer{
+        width: 100%;
+        height: 300px;
+        background: rgb(51,136,154);
+        background:-o-linear-gradient(120deg, white 20%, rgba(51,136,154) 0%);
+        background:-moz-linear-gradient(120deg, white 20%, rgba(51,136,154) 0%);
+        background:-webkit-linear-gradient(120deg, white 20%, rgba(51,136,154) 0%);
+        margin-top: -20px;
+    }
+    
+    
+    #homeContainer h1{
+        text-align:center; 
+        font-weight:200;
+        font-size:40px;
+        font-family: 'Electrolize', sans-serif;
+        position: relative;
+        color: white;
+        
+    }
+    
+    #homeContainer h5 {
+        text-align:center; 
+        font-family: 'Electrolize', sans-serif;
+        position: relative;
+        color: white;
+    }
+    
+    #homeImg{
+        background-image: url("../../imgs/logosxformation.png");
+        background-repeat: no-repeat;
+        background-size: 150px;
+        width:150px;
+        height: 150px;
+        position: relative;
+        top: -10px;
+        left: 80px;
+    }
+    
+    
+    /**menu2**/
+    #menu2Ui{
+        display: block;
+    }
+    
+    #formInfo {
+        display: block;
+        margin-left: 20px;
+        
+    }
+    
+    #imgMenu2{
+        background-color: rgb(228,228,228);
+        margin-top: -20px;
+    }
+    
+    /** menu3 **/
+    #menu3Ui{
+        background-color: white !important;
+        
+    }
+    
+    #mobileFirstImg{
+        width: 100%;
+        margin-left: 20px;
+    }
+    
+    #userRow{
+        margin-top: 100px !important;
+        padding-bottom: 20px;
+        padding-top: 100px;
+        
+    }
+    
+    #redirectRow{
+        text-align: center !important;
+        padding-bottom: 100px;
+        
+    }
+    
+    body{
+        background-color: #e4e4e4!important;
+        
+    }
+    
+    #h1Form{
+        font-family: helvetica;
+        font-weight: 500;
+        line-height: 1.1;
+        text-align: center;
+        
+    }
+    
+}
+
+@media (min-width:410px) {
+    #homeImg{
+        position: relative;
+        top: -10px;
+        left: 120px;
+    }
+}
+
+@media (min-width:479px) {
+    #homeImg{
+        position: relative;
+        top: -10px;
+        left: 150px;
+    }
+}
+
+@media (min-width:599px) {
+    #homeContainer h5{
+        font-size: 20px;
+    }
+    
+    #homeImg{
+        position: relative;
+        top: -10px;
+        left: 210px;
+    }
+    
+    #formInfo {
+        font-size: 20px;
+    }
+    
+    #imgMenu2 img{
+        width: 300px;
+    }
+}
+
+@media (min-width:899px) {
+    
+    #homeImg{
+        position: relative;
+        top: 110px;
+        left: 350px;
+    }
+    
+    #homeContainer h1{
+        font-size:70px;
+        font-weight:200;
+        position: absolute !important;
+        left: 250px;
+    }
+    
+    #homeContainer h5{
+        position: absolute !important;
+        left: 300px;
+        top: 170px;
+        font-size: 15px;
+    }
+    
+    #formInfo{
+        margin-left: 100px;
+    }
+    #imgMenu2 {
+        margin-top: 5px;
+    }
+}
+
+
+
+@media (min-width:1199px) {
+     #homeContainer{
+         height: 452px;
+     }
+    
+    #homeImg{
+        background-size: 300px;
+        height: 300px;
+        width: 300px;
+        position: relative;
+        top: 120px;
+        left: 500px;
+    }
+    
+    #homeContainer h1{
+        font-size:70px;
+        font-weight:200;
+        position: absolute !important;
+        left: 450px;
+    }
+    
+    #homeContainer h5{
+        position: absolute !important;
+        left: 500px;
+        top: 180px;
+        font-size: 15px;
+    }
+    
+    #formInfo{
+        margin-left: 160px;
+    }
+    
+    #formInfo p{
+        font-size: 15px;
+    }
+    #imgMenu2 img{
+        width: 200px;
+    }
+
+}

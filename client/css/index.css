@@ -1,0 +1,40 @@
+@import 'home.css';
+@import 'navbar.css';
+@import 'repositories.css';
+@import 'colors.css';
+@import 'contributorList.css';
+@import 'topContributors.css';
+/**
+@import 'mobile/homeMob.css';
+
+
+@import 'footer.css';
+
+
+**/
+.row{
+    width: 100%;
+}
+
+/** 
+
+
+
+
+@import 'form.css';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ **/

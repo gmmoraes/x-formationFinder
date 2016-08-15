@@ -1,0 +1,24 @@
+#topContContainer{
+    width: 350px;
+    height: 800px;
+    margin: 0 auto;
+    
+}
+
+table{ 
+    border-spacing: 10px !important; 
+    border-collapse: separate !important;
+    margin-top: 50px !important;
+} 
+
+#topContH1{
+ text-align: center;  
+
+}
+
+#filter{
+    position: absolute;
+    width: 300px;
+    margin-left: 10px;
+    
+}

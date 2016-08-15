@@ -1,0 +1,157 @@
+@media (min-width:320px) {
+    .avatar {
+        display: inline-block;
+        overflow: hidden;
+        line-height: 1;
+        vertical-align: middle;
+        border-radius: 3px;
+        height: 60px;
+        width: 60px;
+        border-style: solid;
+        border-color: #eee;
+        
+    }
+    .avatarUser{
+        display: inline-block;
+        overflow: hidden;
+        line-height: 1;
+        vertical-align: middle;
+        border-radius: 3px;
+        height: 150px;
+        width: 150px;
+        border-style: solid;
+        border-color: #eee;  
+    }
+    
+    #contributors,#contributorProfile{
+        margin-left: 100px;
+    }
+    
+    #contributors .col-sm-3{
+        margin-left: -40px !important;
+    }
+    
+    #contributors .col-sm-1{
+        float: left;
+        margin-bottom: 10px;
+        
+    }
+    
+    .publicGists{
+        margin-left: 10px;
+    }
+    
+    #tableProfile{
+        width: 300px;
+        margin-left: 80px;
+        font-size: 20px;
+    }
+    
+}
+
+
+@media (min-width:599px) {
+    #contributors .col-sm-3 a{
+        font-size: 20px;
+    }
+    #contributors .col-sm-3 small{
+        font-size: 15px;
+    }
+    #contributors,#contributorProfile{
+        width: 300px;
+    }
+}
+
+@media (min-width:899px) { 
+    
+    
+    #contributors .col-sm-3{
+        margin-left: 60px !important;
+        width: 180px !important;
+    }
+    
+    #contributorProfile .col-sm-5{
+        float: right !important;
+        margin-left: 200px !important;
+        margin-top: -150px !important;
+    }
+
+    #contributors{
+        margin-left: 220px;
+    }
+    
+    #contributorProfile{
+        margin-left: 220px;
+        
+    }
+    .publicGists{
+        margin-left: 0px;
+    }
+    
+    #avatar0{
+        margin-left: -10px;
+    }
+    
+    #tableProfile{
+        width: 300px;
+        margin-left: 200px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/**
+@media (min-width:1200px) { 
+    .col-sm-3{
+        margin-left: -40px !important;
+        display: inline;
+        
+    }
+    
+    .col-sm-3 > small{
+        margin-right: 10px !important;
+        
+    }
+    
+    .col-sm-1{
+        margin-bottom: 50px !important;
+        
+    }
+    
+    .contributionNumber{
+        margin-left: 0px !important;
+        
+    }
+    
+    .userOL{
+        display: inline-block;
+        
+    }
+    
+    .avatar {
+        display: inline-block;
+        overflow: hidden;
+        line-height: 1;
+        vertical-align: middle;
+        border-radius: 3px;
+        height: 60px;
+        width: 60px;
+        border-style: solid;
+        border-color: #eee;
+        
+    }
+    
+    #contributors{
+        margin-left: 100px;
+        
+    }
+}
+**/
