@@ -38,7 +38,7 @@ https://nodejs.org/en/download/
 B) Download the files of this repository though the green button on the top of the screen
 
 
-C) After downloading, go to thefolder location of the project by the "Command Prompt" and use "npm install"
+C) After downloading, go to the folder location of the project by the "terminal" and use "npm install"
 
 
 ######Ubuntu
