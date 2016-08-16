@@ -18,7 +18,7 @@ myApp.directive("addrepos", ["resultFactory","$http","$compile", function(result
             + "</small><small><img src='../imgs/octicon.png'></img>" 
             + repoObjects[w]['forks'] + "</small><br><div class='contributionNumber" + w+ "' style='margin-left:0px !important'></div></div>")(scope));
             
-	      	$http.get(repoObjects[w]['contributorsUrl'] + "?access_token=13ec017dfa16f8c7bbf9273c09128d27265a121d").success(function(contributions) {
+	      	$http.get(repoObjects[w]['contributorsUrl'] ).success(function(contributions) {
 	      		repositories.push(contributions.length);
 	      		for(var q =0;q<repositories.length;q++){
 	      			repoObjects[q]["contributors"] = repositories[q];
